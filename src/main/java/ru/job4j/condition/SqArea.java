@@ -1,3 +1,8 @@
+/*
+Второй вариант написания метода (норм, но много скобок)
+return (p / (2 * (k + 1))) * (p / (2 * (k + 1))*k);
+*/
+
 package ru.job4j.condition;
 
 public class SqArea {
@@ -5,7 +10,6 @@ public class SqArea {
         double h = p / (2 * (k + 1));
         double l = h * k;
         return l * h;
-        //return (p / (2 * (k + 1))) * (p / (2 * (k + 1))*k); норм вариант, только скобок много
     }
 
     public static void main(String[] args) {
