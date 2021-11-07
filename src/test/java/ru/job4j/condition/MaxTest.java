@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class MaxTest {
+
     @Test
     public void whenMax1To2Then2() {
         int left = 1;
@@ -12,6 +13,7 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax189To25Then189() {
         int left = 189;
@@ -20,6 +22,7 @@ public class MaxTest {
         int expected = 189;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax14To20Then20() {
         int left = 14;
@@ -28,6 +31,7 @@ public class MaxTest {
         int expected = 20;
         Assert.assertEquals(result, expected);
     }
+
     @Test
     public void whenMax10To10Then10() {
         int left = 10;
